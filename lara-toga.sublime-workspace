@@ -1,0 +1,1523 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"prod",
+				"product_category_id"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"ce",
+				"cellpadding	Attr"
+			],
+			[
+				"req",
+				"request	L5 Request "
+			],
+			[
+				"gma",
+				"gmap_lat_lng"
+			],
+			[
+				"gm",
+				"gmap_lat_lng"
+			],
+			[
+				"aum",
+				"aum_id"
+			],
+			[
+				"aum_list",
+				"aum_list_id"
+			],
+			[
+				"get",
+				"getArCategory"
+			],
+			[
+				"artic",
+				"articleCategory"
+			],
+			[
+				"da",
+				"dadd"
+			],
+			[
+				"sear",
+				"searchVal"
+			],
+			[
+				"kat",
+				"kategori"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"article",
+				"article_category_id"
+			],
+			[
+				"arti",
+				"article_id"
+			],
+			[
+				"kate",
+				"kategori"
+			],
+			[
+				"menu",
+				"menuselect"
+			],
+			[
+				"refre",
+				"refreshLink"
+			],
+			[
+				"sub",
+				"subekor"
+			],
+			[
+				"ex",
+				"exfruit"
+			],
+			[
+				"ref",
+				"refreshLink"
+			],
+			[
+				"add",
+				"addcol"
+			],
+			[
+				"edit",
+				"editColumn"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"Gall",
+				"GalleryCategory"
+			],
+			[
+				"galer",
+				"galeri_kategori"
+			],
+			[
+				"th",
+				"thumbnail"
+			],
+			[
+				"fil",
+				"fileGet"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"or",
+				"orderBy"
+			],
+			[
+				"bas",
+				"base_rurl"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"page",
+				"page1"
+			],
+			[
+				"art",
+				"articleCat"
+			],
+			[
+				"cure",
+				"currentTitle"
+			],
+			[
+				"cu",
+				"currentUrl"
+			],
+			[
+				"artik",
+				"artikelkategori"
+			],
+			[
+				"coun",
+				"count_pengumuman"
+			],
+			[
+				"pengu",
+				"pengumumans"
+			],
+			[
+				"nex",
+				"nextPage"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"gale",
+				"galeri_kategori"
+			],
+			[
+				"gal",
+				"galeri_kategori"
+			],
+			[
+				"galeri",
+				"galeri_kategoris"
+			],
+			[
+				"non",
+				"non_pengumuman_kategori"
+			],
+			[
+				"getPen",
+				"getPengumumanKategori"
+			],
+			[
+				"Default",
+				"DefaultRepository"
+			],
+			[
+				"filte",
+				"filterVal"
+			],
+			[
+				"pen",
+				"pengumumans"
+			],
+			[
+				"no",
+				"non_pengumumman_kategoris"
+			],
+			[
+				"Arti",
+				"ArticleCategory"
+			],
+			[
+				"ser",
+				"serialize"
+			],
+			[
+				"Fil",
+				"FileUpload"
+			],
+			[
+				"FIle",
+				"FileUpload"
+			],
+			[
+				"ar",
+				"arCategory"
+			],
+			[
+				"Galeer",
+				"GalleryCategory"
+			],
+			[
+				"old",
+				"oldPath"
+			],
+			[
+				"ori",
+				"oriFile"
+			],
+			[
+				"all",
+				"allowed_filename"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"data",
+				"data_peserta"
+			],
+			[
+				"jml",
+				"jml_pool_ini"
+			],
+			[
+				"isi",
+				"isi_kontingen"
+			],
+			[
+				"peser",
+				"peserta_val_conv"
+			],
+			[
+				"str",
+				"str_replace"
+			],
+			[
+				"arr",
+				"arr_identitas"
+			],
+			[
+				"id_d",
+				"id_drowing"
+			],
+			[
+				"id",
+				"id_drowing_get"
+			],
+			[
+				"id_dr",
+				"id_drowing_get"
+			],
+			[
+				"list",
+				"list_id_kelas"
+			],
+			[
+				"id_kel",
+				"id_kelas_get"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"kontinge",
+				"kontingen_pilih"
+			],
+			[
+				"kon",
+				"kontingen_nama"
+			],
+			[
+				"kelas",
+				"kelas_id_conv"
+			],
+			[
+				"tiap",
+				"tiap_pool"
+			],
+			[
+				"incl",
+				"include"
+			],
+			[
+				"kont_id",
+				"kont_id_conv"
+			],
+			[
+				"kontin",
+				"kontingen_all"
+			],
+			[
+				"jml_p",
+				"jml_pool"
+			],
+			[
+				"key",
+				"key_id"
+			],
+			[
+				"ara",
+				"array_id"
+			],
+			[
+				"id_",
+				"id_peserta_view"
+			],
+			[
+				"pre",
+				"pre_pool_no"
+			],
+			[
+				"ini",
+				"inline"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"erro",
+				"error_reporting"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"count",
+				"count_kelas"
+			],
+			[
+				"arra",
+				"array_keys"
+			],
+			[
+				"quer",
+				"query_peserta"
+			],
+			[
+				"query",
+				"query_count"
+			],
+			[
+				"kel",
+				"kelas_val_conv"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"q_ar",
+				"q_ar2"
+			],
+			[
+				"sc",
+				"script"
+			],
+			[
+				"Bera",
+				"Berat_Badan"
+			],
+			[
+				"Be",
+				"Berat_Badan"
+			],
+			[
+				"Tan",
+				"Tanggal_Lahir"
+			],
+			[
+				"Data",
+				"Database"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"border-rad",
+				"border-top-right-radius"
+			],
+			[
+				"se",
+				"session_start"
+			],
+			[
+				"cel",
+				"cellspacing	Attr"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"fu",
+				"fun	function …"
+			],
+			[
+				"re",
+				"reload_location"
+			],
+			[
+				"tambah",
+				"tambah_peserta"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"xml",
+				"xmlhttp"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"str_rp",
+				"str_replace"
+			],
+			[
+				"tamp",
+				"tampil_riwayat"
+			],
+			[
+				"tan",
+				"tanggal_daftar"
+			],
+			[
+				"nama",
+				"nama_kk"
+			],
+			[
+				"tang",
+				"tanggal_lahir"
+			],
+			[
+				"tampil",
+				"tampil_pasien"
+			],
+			[
+				"Bua",
+				"BuatArray"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 823,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/product/list.blade.php",
+			"settings":
+			{
+				"buffer_size": 3487,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/layouts/sidebar.blade.php",
+			"settings":
+			{
+				"buffer_size": 3209,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Repo/Repo.php",
+			"settings":
+			{
+				"buffer_size": 785,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "note.md",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".env",
+			"settings":
+			{
+				"buffer_size": 484,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/product/category/list.blade.php",
+			"settings":
+			{
+				"buffer_size": 3964,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/ProductController.php",
+			"settings":
+			{
+				"buffer_size": 11733,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/apphome.blade.php",
+			"settings":
+			{
+				"buffer_size": 8205,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/app.php",
+			"settings":
+			{
+				"buffer_size": 8742,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 321.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"colorsubl",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Add Channel"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"obje",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"mat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"obj",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"matl",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"obc",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"octav",
+				"Snippet: Octave function"
+			],
+			[
+				"MATL",
+				"Set Syntax: MATLAB"
+			]
+		],
+		"width": 510.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/#my_web/htdocs/lara-toga",
+		"/F/#my_web/htdocs/lara-toga/app",
+		"/F/#my_web/htdocs/lara-toga/config",
+		"/F/#my_web/htdocs/lara-toga/database",
+		"/F/#my_web/htdocs/lara-toga/resources/views"
+	],
+	"file_history":
+	[
+		"/F/#my_web/htdocs/lara-toga/config/_options.php",
+		"/F/#my_web/htdocs/lara-toga/app/Models/Option.php",
+		"/F/#my_web/htdocs/lara-toga/database/migrations/2017_02_14_002941_c_table_options.php",
+		"/F/#my_web/htdocs/lara-toga/.env",
+		"/F/#my_web/htdocs/lara-toga/resources/views/product/add.blade.php",
+		"/F/#my_web/htdocs/lara-toga/resources/views/product/edit.blade.php",
+		"/F/#my_web/htdocs/lara-toga/resources/views/product/category/list.blade.php",
+		"/F/#my_web/htdocs/lara-toga/resources/views/aplikasi/kasir.blade.php",
+		"/F/#my_web/htdocs/lara-toga/public/productfiles/thumb-iddf16a1fe7.jpg",
+		"/F/#my_web/htdocs/lara-toga/public/productfiles/thumb-i7ed6181.jpg",
+		"/F/#my_web/htdocs/lara-toga/public/productfiles/i7ed6181.jpg",
+		"/F/#my_web/htdocs/lara-toga/public/productfiles/iddf16a1fe7.jpg",
+		"/F/#my_web/htdocs/lara-toga/config/app.php",
+		"/F/#my_web/htdocs/lara-toga/vendor/intervention/image/src/config/config.php",
+		"/F/#my_web/htdocs/lara-toga/public/assets/ckeditor/samples/index.html",
+		"/F/#my_web/htdocs/lara-toga/public/assets/ckeditor/config.js",
+		"/C/Users/AxQuired/AppData/Local/Temp/Rar$DIa0.952/README.md",
+		"/F/#my_web/htdocs/lara-pcm/app/User.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Models/AumList.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Models/Menu.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Models/Article.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Models/ArticleCategory.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Models/File.php",
+		"/F/#my_web/htdocs/lara-pcm/public_html/index.php",
+		"/F/#my_web/htdocs/lara-pcm/laravel/.env",
+		"/F/#my_web/htdocs/lara-pcm/laravel/.env.production",
+		"/F/#my_web/htdocs/lara-pcm/app/Logic/PCM/DefaultRepository.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/aum/artikel.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/pcm/subsitus.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/pcm/home.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/PCM/DefaultController.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/KontributorController.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/routes.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/artikel_kontributor/add.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/lorem.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/PCM/datepickerReference.html",
+		"/C/Users/AxQuired/Downloads/exportThunderBird/KelasB/B_Susulan_20170105-2039/index.html",
+		"/C/Users/AxQuired/Downloads/exportThunderBird/Important_20170105-1520/index.html",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/pcm/artikel.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/pcm/halaman.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/note.mmd",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/artikel_kontributor/edit.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/Admin/MenuController.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/artikel/edit.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/Admin/ArticleController.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/artikel_kontributor/list.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/aum/galeri.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/.gitignore",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/Admin/UserController.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/kelola_user/edit.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/Admin/AumListController.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/aum_list/edit.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/aum_list/add.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/AUM/AUMController.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/aum/home.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/layouts/aum_home.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/aum/halaman.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/layouts/admin.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/readme.md",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/layouts/pcm_menu.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/composer.json",
+		"/F/#my_web/htdocs/lara-pcm/package.json",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/Admin/ArticleCategoryController.php",
+		"/F/#my_web/htdocs/lara-pcm/.env",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/menu/edit_order.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/Admin/PageController.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/galeri_kategori/list.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/aum_list/list.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/pcm/artikelkategori.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/.env.local",
+		"/F/#my_web/htdocs/lara-pcm/bootstrap/app.php",
+		"/C/Users/AxQuired/Downloads/googlefef288f728dbc49a (1).html",
+		"/F/#my_web/htdocs/_belajar/mini_hrd/readme.md",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/artikel/add.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Middleware/ActiveUser.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/aum/daftarfile.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/layouts/pcm_home.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/aum/artikelkategori.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/storage/framework/views/b272af8a10bdec8f5f6aa02deac9d309dc3eee3f.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/aum/galerikategori.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/artikel/list.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/Admin/FileController.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/Admin/GalleryCategoryController.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/kelola_user/list_non_aktif.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/kelola_user/list.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/halaman/list.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/menu/list.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/Admin/ImageController.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/file/list.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/artikel_kategori/list.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/artikel/list_pengumuman.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/artikel/list_nonaktif.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/artikel/list_cast.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/config/app.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/AUM/AUMController",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/layouts/pagination.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/kelola_user/add.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Middleware/Admin.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Kernel.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Http/Middleware/Staff.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/menu/edit.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/menu/add.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/auth/login.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/halaman/edit.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/pcm/galeri.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/pcm/daftarfile.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/pcm/galerikategori.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/config/mail.php",
+		"/F/#my_web/htdocs/lara-arsyfa/.env",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/auth/emails/password.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/auth/passwords/reset.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/auth/passwords/email.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/auth/register.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/sekolah/home.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/note.md",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/halaman/add.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/vendor/chencha/share/README.md",
+		"/F/#my_web/htdocs/lara-pcm/app/Logic/Image/ImageRepository.php",
+		"/F/#my_web/htdocs/lara-pcm/app/Logic/PCM/ArticleRepository.php",
+		"/F/#my_web/htdocs/lara-pcm/vendor/laravel/framework/src/Illuminate/Pagination/Paginator.php",
+		"/F/#my_web/htdocs/lara-pcm/vendor/laravel/framework/src/Illuminate/Pagination/LengthAwarePaginator.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/layouts/home_pcm.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/public/assets/nestable/nestable.css",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/contohNestable.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/resources/views/layouts/app.blade.php",
+		"/F/#my_web/htdocs/lara-pcm/database/migrations/2016_11_30_001933_create_menus_table.php",
+		"/F/#my_web/htdocs/lara-pcm/database/migrations/2016_10_30_115340_create_aum_lists_table.php",
+		"/D/A-24 Software/webCompiler/Sublime 3/Data/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"app/product/add",
+			"lorem",
+			"share",
+			"with->",
+			"article",
+			"edit",
+			"getArtikelKategoriDetail",
+			"cariArtik",
+			"json",
+			"modalcode",
+			"title",
+			"searchArticles",
+			"Request",
+			"filterForm",
+			"whereIn",
+			"url('",
+			"url(",
+			"href",
+			"-pcm",
+			"url(",
+			"-pcm",
+			"getpengumumans",
+			"$aum",
+			"Auth::user()->level",
+			"primary",
+			"{{ $bgclass }}",
+			"active",
+			"bg-primary",
+			"getGaleriInKategoris",
+			"galeri",
+			"admin/kelola/artikel/add",
+			"direct",
+			"is_active",
+			"active",
+			"Broadcast Artikel ini",
+			"$artikel",
+			"share",
+			"loading-pengumuman",
+			"stack",
+			"csscode",
+			"modalcode",
+			"modal_code",
+			"json",
+			"aum/",
+			"$",
+			"$aum",
+			"image",
+			"$image",
+			"hidden-xs",
+			"ImageController@deleteUpload",
+			"ImageController@deleteFromEdit",
+			"endfor",
+			"endforeach",
+			"non_pengumumman_kategori",
+			"non_pengumumman_kategoris",
+			"$aum",
+			"output",
+			"expand-all",
+			"width",
+			"aum_id",
+			"File",
+			"void",
+			"a",
+			"5",
+			"a",
+			"request",
+			"$filename",
+			"edit",
+			"void;",
+			"nonaktif",
+			"white",
+			"#FFF",
+			"border",
+			"mark-kuning",
+			"'mark-hijau'",
+			"'mark-biru'",
+			"'mark-merah'",
+			"'merah'",
+			"'kuning'",
+			"'hijau'",
+			"'biru'",
+			"isi_kon",
+			"						$",
+			"value",
+			"peserta",
+			"\"",
+			"'user'",
+			" language script=\"JavaScript\"",
+			"kelas_id_conv",
+			"isi",
+			"isi_kelas",
+			"isi",
+			"'a'",
+			"'isi'",
+			"';",
+			"ES '",
+			"isi",
+			"width",
+			"border",
+			"index",
+			"border",
+			"\n",
+			"`",
+			" 00:00:00",
+			"'\",",
+			"',",
+			"'K",
+			"'",
+			" Khusus",
+			" 00:00:00",
+			" ');",
+			"');",
+			"Kumite",
+			"Kata",
+			"'K",
+			"8'",
+			"7'",
+			"6'",
+			"5'",
+			"4'",
+			"3'",
+			"2'",
+			"1'",
+			"',",
+			"2,",
+			"1,",
+			"7,",
+			"6,"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"url('aum/'.$aum->seo_name.'/",
+			"-sekolah",
+			"$user_level",
+			"{{ $bgclass }}",
+			"bg-{{ $bgclass }}",
+			"{{ $bgclass }} text-white",
+			"{{ $bgclass }}",
+			"Broadcast Konten ini",
+			"$halaman",
+			".loading-pengumuman",
+			"$this->aum",
+			"non_pengumuman_kategori",
+			"non_pengumuman_kategoris",
+			"FileUpload",
+			"label-warning",
+			"'label-success'",
+			"'label-primary'",
+			"'label-danger'",
+			"'mark-merah'",
+			"'mark-kuning'",
+			"'mark-hijau'",
+			"'mark-biru'",
+			"drowing",
+			"'",
+			"'status'",
+			"",
+			"isi_kontingen",
+			"isi",
+			"');",
+			"ES ('",
+			"'isi'",
+			",",
+			"",
+			" '\",",
+			"'\",",
+			"\"'K",
+			"''",
+			"",
+			"');",
+			"'); <br>",
+			"'Kumite",
+			"'Kata",
+			"K",
+			"'",
+			"",
+			"',<br>",
+			"",
+			",",
+			"",
+			"4",
+			"3",
+			"2",
+			"1",
+			"kelas_all",
+			"peserta",
+			",",
+			"kelas",
+			"isi",
+			"kelas",
+			"<div class=\"col-md-6\">",
+			"<div class=\"form-group row\">",
+			"modal-peserta-add",
+			"modal-kelas-add",
+			"\"",
+			"'",
+			"th",
+			",",
+			"pss",
+			"user",
+			"username",
+			"",
+			"\"",
+			"datafield",
+			"DATAFLD",
+			"<td><?php echo $tampil_pasien[nama_lengkap]; ?></td>",
+			"obat",
+			"",
+			"$namaLabel",
+			"Timor",
+			"Kijang",
+			"",
+			"\"$_POST[",
+			"_",
+			"dan",
+			",",
+			"tampil",
+			"$nameCol",
+			"pass",
+			"user",
+			"",
+			"$_POST",
+			"]",
+			"S_POST[",
+			"",
+			"moz",
+			"section-event-detail",
+			"",
+			"str_replace(\",\", \" \",$tampung",
+			"[11]",
+			"../metro3/",
+			"../metro3",
+			"no-desktop no-large",
+			"",
+			"F:",
+			"G:/#my_web/htdocs",
+			"G:/#my_web/data",
+			"G:/#my_web/htdocs",
+			"inverse",
+			"darkMagenta",
+			"FUTSAL",
+			"Period",
+			"=>array(",
+			"orange",
+			"icon-power",
+			"icon-grid-view",
+			"bg-darkMagenta",
+			",",
+			"<td>d</td>",
+			"td",
+			"&",
+			"$this->input",
+			"th",
+			"",
+			"<a href=\"online_booking.php?h=1\">",
+			"$pjudul",
+			"col-sm-4",
+			"col-sm-8",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								474,
+								474
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai-Soft-MD.tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 96.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/product/list.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2685,
+								2685
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai-Soft-MD.tmTheme",
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1695.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/layouts/sidebar.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1308,
+								1308
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai-Soft-MD.tmTheme",
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Repo/Repo.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								578,
+								578
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "note.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": ".env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								13
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resources/views/product/category/list.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2595,
+								2595
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2847.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/Http/Controllers/ProductController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4186,
+								4197
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai-Soft-MD.tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2591.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "resources/views/layouts/apphome.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8101,
+								8101
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai-Soft-MD.tmTheme",
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4707.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "config/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 67.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 156.0
+	},
+	"project": "lara-toga.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"F:\\#my_web\\htdocs\\_sublime_project\\jurnaldosen.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 358.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
