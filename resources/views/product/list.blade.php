@@ -1,45 +1,34 @@
 @extends('layouts.apphome')
-@section('title' ,'Semua Produk')
+@section('title', 'Semua Produk')
 @section('content')
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="card">
-                <div class="header">
-                    <h4 class="title">
-                    Semua Produk
-                    <a href="{{ url('app/product/add') }}" class="btn btn-fill btn-danger pull-right"> <span class="fa fa-plus"></span> Tambah Baru</a>
-                    </h4>
-                </div>
-                <br>
-                <div class="content">
-                    <div id="tablecontent">
-                    <table id="datatable" class="table table-responsive table-striped table-hover">
-                        <thead>
-                            <th>Kode</th>
-                            <th>Produk</th>
-                            <th>Kategori</th>
-                            <th>Harga</th>
-                            <th>Stok</th>
-                            <th>Opsi</th>
-                        </thead>
-                        <tbody>
-                        </tbody>
-                    </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> {{-- .row --}}
-</div>{{--  container-fluid --}}
+<div class="row">
+	<div class="col-md-12">
+		<div class="box box-success">
+			<div class="box-header">
+				<h3 class="box-title">Daftar Produk &nbsp; <a href="{{ url('app/product/add') }}" class="btn btn-danger"><span class="fa fa-plus"></span> &nbsp; Tambah Baru</a>
+                <a title="Refresh Tabel" href="javascript:refreshDataTable()" class="btn btn-success"><span class="fa fa-refresh"></span></a>
+                </h3>
+			</div>
+			<div class="box-body">
+                <table id="datatable" class="table table-responsive table-striped table-bordered table-hover">
+                    <thead>
+                        <th>Kode</th>
+                        <th>Produk</th>
+                        <th>Kategori</th>
+                        <th>Harga</th>
+                        <th>Stok</th>
+                        <th>Opsi</th>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+			</div>
+		</div>
+	</div> {{-- col-md --}}
+</div> {{-- row --}}
 
 @push('jscode')
 <script>
-$('#produkMenu').addClass('in');
-$('#menusemuaproduk').addClass('active');
-$('#menuproduk').addClass('active');
-
     // Datatable View
     var datatable =
     $('#datatable').DataTable({
@@ -57,6 +46,15 @@ $('#menuproduk').addClass('active');
         ],
         order: [ [4, 'asc'] ]
     });
+
+    @if(isset($_POST['searchDatatable']))
+        // datatable.column(1).search('{{ $_POST['searchDatatable'] }}').draw();
+        // $('#datatable_filter input').val('{{ $_POST['searchDatatable'] }}');
+    @endif
+
+    function refreshDataTable() {
+        datatable.ajax.reload();
+    }
 
     // Delete ajax function
     function deleteBtn(id, title){

@@ -5,12 +5,11 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-            <div class="card">
-                <div class="header">
-                    <h4 class="title">
-                    Kategori Produk
-                    <a href="javascript:addBtn()" class="btn btn-fill btn-danger pull-right"> <span class="fa fa-plus"></span> Tambah Baru</a>
-                    </h4>
+            <div class="box box-success">
+                <div class="box-header">
+                    <h3 class="box-title">Ketegori Produk &nbsp; <a href="javascript:addBtn()" class="btn btn-danger"><span class="fa fa-plus"></span> &nbsp; Tambah Baru</a>
+                <a title="Refresh Tabel" href="javascript:refreshDataTable()" class="btn btn-success"><span class="fa fa-refresh"></span></a>
+                </h3>
                 </div>
                 <br>
                 <div class="content">
@@ -50,6 +49,10 @@ $('#menuproduk').addClass('active');
         ],
         order: [ [0, 'desc'] ]
     });
+
+    function refreshDataTable() {
+        datatable.ajax.reload();
+    }    
 
     // Delete ajax function
     function deleteBtn(id, title){

@@ -120,7 +120,7 @@ class ProductController extends Controller
                 })
 	    		->addColumn('action', function($table){
 	    			return
-	    			'<a title="hapus" href="javascript:" onclick="deleteBtn('.$table->id.', \''.$table->name.'\')" class="btn btn-fill btn-xs btn-danger"><span class="fa fa-trash-o"></span></a>
+	    			'<a title="hapus" href="javascript:" onclick="deleteBtn('.$table->id.', \''.$table->name.'\')" class="btn btn-fill btn-xs btn-danger"><span class="fa fa-remove"></span></a>
 	    				<a title="Ubah" href="'.url("app/product/edit?product_id=".$table->id).'" class="btn btn-xs btn-primary"><span class="fa fa-pencil"></span></a>';
 	    		})
 	    		->make(true);
@@ -184,7 +184,7 @@ class ProductController extends Controller
 	    return $datatables
 	    		->addColumn('action', function($table){
 	    			return
-	    			'<a title="hapus" href="javascript:" onclick="deleteBtn('.$table->id.', \''.$table->name.'\')" class="btn btn-fill btn-xs btn-danger"><span class="fa fa-trash-o"></span></a>
+	    			'<a title="hapus" href="javascript:" onclick="deleteBtn('.$table->id.', \''.$table->name.'\')" class="btn btn-fill btn-xs btn-danger"><span class="fa fa-remove"></span></a>
 	    				<a title="Ubah" href="javascript:" onclick="editBtn('.$table->id.', \''.$table->name.'\')" class="btn btn-xs btn-primary"><span class="fa fa-pencil"></span></a>';
 	    		})
 	    		->make(true);

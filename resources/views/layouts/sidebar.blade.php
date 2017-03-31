@@ -1,87 +1,109 @@
-<div class="sidebar" data-color="blue" data-image="{{ URL::asset('assets/img/sidebar-4.jpg') }}">
-
-<!--
-
-    Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
-    Tip 2: you can also add an image using data-image tag
-
--->
-
-	<div class="sidebar-wrapper">
-        <div class="logo">
-            <a href="#" class="simple-text">
-                TOKO KELUARGA
-            </a>
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- Sidebar user panel -->
+      <div class="user-panel">
+        <div class="pull-left image">
+          <img src="{{ url('lte/dist/img/user2-160x160.jpg') }}" class="img-circle" alt="User Image">
         </div>
+        <div class="pull-left info">
+          <p>Admin Kasir</p>
+          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+        </div>
+      </div>
+      <!-- search form -->
+{{--       <form action="{{ url('app/product/list') }}" method="post" class="sidebar-form">
+        <div class="input-group">
+          <input type="text" name="searchDatatable" class="form-control" placeholder="Cari Produk">
+              <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+      </form> --}}
+      <!-- /.search form -->
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <?php 
+        function cur_uri() {
+          $currenturi = url()->full();
+          $currenturi = str_replace(url('/') . '/', '', $currenturi);
+          $cur_uri = explode('/', $currenturi);
+          return $cur_uri;
+        }
+        // is active menu
+        function active_product($param) {
+          $cur_uri  = cur_uri();
+          if(($cur_uri[1] == 'product') && ($cur_uri[2] == $param)) {
+            return 'class=active';
+          } // close if
+        } // close function
 
-        <ul class="nav">
-            <li id="menukasir">
-                <a href="{{ url('/') }}">
-                    <i class="pe-7s-cart"></i>
-                    <p>Kasir</p>
-                </a>
-            </li>
-            <li id="menuproduk">
-                <a data-toggle="collapse" href="#produkMenu" class="" aria-expanded="true">
-                    <i class="pe-7s-plugin"></i>
-                    <p>Produk
-                       <b class="caret"></b>
-                    </p>
-                </a>
-                <div class="collapse" id="produkMenu" aria-expanded="true">
-                    <ul class="nav">
-                        <li id="menusemuaproduk"><a href="{{ url('app/product/list') }}">Semua Produk</a></li>
-                        <li id="menuprodukcat"><a href="{{ url('app/product_category/list') }}">Kategori Produk</a></li>
-                        <li id="menuprodukadd"><a href="{{ url('app/product/add') }}">Produk Baru</a></li>
-                    </ul>
-                </div>
-            </li>
+        function active_product_cat($param) {
+          $cur_uri  = cur_uri();
+          if($cur_uri[1] == 'product_category' && $cur_uri[2] == $param) {
+            return 'class=active';
+          } // close if
+        } // close function
 
-            <li>
-                <a data-toggle="collapse" href="#memberMenu" class="" aria-expanded="true">
-                    <i class="pe-7s-users"></i>
-                    <p>Member
-                       <b class="caret"></b>
-                    </p>
-                </a>
-                <div class="collapse" id="memberMenu" aria-expanded="true">
-                    <ul class="nav">
-                        <li><a href="#">Semua Member</a></li>
-                        <li><a href="#">Ambil Tabungan</a></li>
-                        <li><a href="#">Member Baru</a></li>
-                    </ul>
-                </div>
-            </li>
+        function active_member($param) {
+          $cur_uri  = cur_uri();
+          if($cur_uri[1] == 'member' && $cur_uri[2] == $param) {
+            return 'class=active';
+          } // close if
+        } // close function
 
-            <li>
-                <a data-toggle="collapse" href="#laporanMenu" class="" aria-expanded="true">
-                    <i class="pe-7s-note2"></i>
-                    <p>Laporan
-                       <b class="caret"></b>
-                    </p>
-                </a>
-                <div class="collapse" id="laporanMenu" aria-expanded="true">
-                    <ul class="nav">
-                        <li><a href="#">Statistik</a></li>
-                        <li><a href="#">Transaksi Penjualan</a></li>
-                        <li><a href="#">Tabungan</a></li>                            
-                    </ul>
-                </div>
-            </li>
-
-            <li>
-                <a href="#">
-                    <i class="pe-7s-config"></i>
-                    <p>Pengaturan Toko</p>
-                </a>
-            </li>
-
-{{-- 			<li class="active-pro">
-                <a href="#">
-                    <i class="pe-7s-call"></i>
-                    <p>Kontak Pengembang</p>
-                </a>
-            </li> --}}
-        </ul>
-	</div>
-</div>
+        $cur_uri  = cur_uri(); // export variable
+        // dd($cur_uri);
+      ?>
+      <ul class="sidebar-menu">
+        <li class="header">NAVIGASI UTAMA</li>
+        <li class="@if($cur_uri[1] == '') active @endif">
+            <a href="{{ url('/') }}"><i class="fa fa-shopping-cart"></i> <span>Kasir</span></a>
+        </li>
+        <li class="treeview @if($cur_uri[1] == 'product' || $cur_uri[1] == 'product_category') active @endif">
+          <a href="#">
+            <i class="fa fa-gift"></i>
+            <span>Produk</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li {{ active_product('list') }}><a href="{{ url('app/product/list') }}"><i class="fa fa-circle-o"></i> Semua Produk</a></li>
+            <li {{ active_product_cat('list') }}><a href="{{ url('app/product_category/list') }}"><i class="fa fa-circle-o"></i> Kategori Produk</a></li>
+            <li {{ active_product('add') }}><a href="{{ url('app/product/add') }}"><i class="fa fa-circle-o"></i> Tambah Produk</a></li>
+          </ul>
+        </li>
+        <li class="treeview @if($cur_uri[1] == 'member') active @endif">
+          <a href="#">
+            <i class="fa fa-users"></i>
+            <span>Member</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li {{ active_member('list') }}><a href="{{ url('app/member/list') }}"><i class="fa fa-circle-o"></i> Semua Member</a></li>
+            <li {{ active_member('tabungan') }}><a href="{{ url('app/member/tabungan') }}"><i class="fa fa-circle-o"></i> Tabungan Member</a></li>
+            <li {{ active_member('add') }}><a href="{{ url('app/member/add') }}"><i class="fa fa-circle-o"></i> Tambah Member</a></li>
+          </ul>
+        </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-file-pdf-o"></i>
+            <span>Laporan</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#"><i class="fa fa-circle-o"></i> Statistik</a></li>
+            <li><a href="#"><i class="fa fa-circle-o"></i> Laporan Penjualan</a></li>
+          </ul>
+        </li>
+        <li class="header">PENGATURAN</li>
+        <li class="@if($cur_uri[1] == 'settings') active @endif">
+            <a href="{{ url('app/settings') }}"><i class="fa fa-cog"></i> Pengaturan Toko</a>
+        </li>        
+      </ul>
+    </section>
+    <!-- /.sidebar -->

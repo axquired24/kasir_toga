@@ -1,210 +1,143 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="utf-8" />
-	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>@yield('title') - Toga (Toko Keluarga)</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="{{ url('lte/bootstrap/css/bootstrap.min.css') }}">
+  {{-- Datatable --}}
+  <link rel="stylesheet" href="{{ url('lte/plugins/datatables/dataTables.bootstrap.css') }}">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{{ url('assets/font-awesome/font-awesome.css') }}">
+  {{-- Datepicker --}}
+  <link rel="stylesheet" href="{{ url('lte/plugins/datepicker/datepicker3.css') }}">
+  <!-- Ionicons -->
+  {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"> --}}
+  <!-- jvectormap -->
+  {{-- <link rel="stylesheet" href="{{ url('lte/plugins/jvectormap/jquery-jvectormap-1.2.2.css') }}"> --}}
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{{ url('lte/dist/css/AdminLTE.min.css') }}">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="{{ url('lte/dist/css/skins/_all-skins.min.css') }}">
 
-	<title>@yield('title') - Toga (Toko Keluarga)</title>
-
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
-
-
-    <!-- Bootstrap core CSS     -->
-    <link href="{{ URL::asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" />
-    <link href="{{ URL::asset('assets/datatable/jquery.dataTables.min.css') }}" rel="stylesheet" />
-
-    <!-- Animation library for notifications   -->
-    <link href="{{ URL::asset('assets/css/animate.min.css') }}" rel="stylesheet"/>
-
-    <!--  Light Bootstrap Table core CSS    -->
-    <link href="{{ URL::asset('assets/css/light-bootstrap-dashboard.css') }}" rel="stylesheet"/>
-
-
-    <!--  CSS for Demo Purpose, don't include it in your project     -->
-    <link href="{{ URL::asset('assets/css/demo.css') }}" rel="stylesheet" />
-
-
-    <!--     Fonts and icons     -->
-    <link href="{{ URL::asset('assets/font-awesome/font-awesome.css') }}" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-    <link href="{{ URL::asset('assets/css/pe-icon-7-stroke.css') }}" rel="stylesheet" />
-    @stack('csscode')
-
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  @stack('csscode')
 </head>
-<body>
-
+<body class="hold-transition skin-green sidebar-mini">
 <div class="wrapper">
+
+  <header class="main-header">
+    @include('layouts.header')
+  </header>
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
     @include('layouts.sidebar')
+  </aside>
 
-    <div class="main-panel">
-        <nav class="navbar navbar-default navbar-fixed">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">@yield('title')</a>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-left">
-{{--                         <li>
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-dashboard"></i>
-								<p class="hidden-lg hidden-md">Dashboard</p>
-                            </a>
-                        </li> --}}
-                        <li>
-                           <a href="">
-                                <i class="fa fa-search"></i>
-                                <p class="hidden-lg hidden-md">Search</p>
-                            </a>
-                        </li>
-                    </ul>
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        @yield('title')
+        {{-- <small>Version 1</small> --}}
+      </h1>
+{{--       <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>        
+        <li class="active">{{ \Route::getCurrentRoute()->getPath() }}</li>
+      </ol> --}}
+    </section>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="fa fa-globe"></i>
-                                    <b class="caret hidden-sm hidden-xs"></b>
-                                    <span class="notification hidden-sm hidden-xs">5</span>
-									<p class="hidden-lg hidden-md">
-										5 Notifikasi
-										<b class="caret"></b>
-									</p>
-                              </a>
-                              <ul class="dropdown-menu">
-                                <li><a href="#">Notification 1</a></li>
-                                <li><a href="#">Notification 2</a></li>
-                                <li><a href="#">Notification 3</a></li>
-                                <li><a href="#">Notification 4</a></li>
-                                <li><a href="#">Another notification</a></li>
-                              </ul>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <p>Log out</p>
-                            </a>
-                        </li>
-                        <li class="separator hidden-lg hidden-md"></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        
-        <div class="content">
-            @if(session()->has('notifikasi'))
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="alert alert-{{ session('notifikasi')['cls'] }}"><span class="fa fa-info-circle"></span> {!! session('notifikasi')['text'] !!}</div>
-                    </div>
-                </div>
-            </div>
-            @endif
-
-          @if (count($errors) > 0)
-          <div class="container-fluid">
-            @foreach ($errors->all() as $error)
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="alert alert-danger"><span class="fa fa-info-circle"></span> {{ $error }}</div>
-                </div>
-            </div>
-            @endforeach
+    <!-- Main content -->
+    <section class="content">
+        {{-- @include('ltecontent') --}}
+        @if (count($errors) > 0)
+          @foreach ($errors->all() as $error)
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="alert alert-danger"><span class="fa fa-info-circle"></span> {{ $error }}
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  
+              </div>
           </div>
-          @endif
+          @endforeach
+        @endif
 
-            @yield('content')
-        </div>
+         @if(Session::get('notifikasi') !== null)
+          <div class="row">
+            <div class="col-md-12">                      
+              <div class="alert alert-{{ Session::get('notifikasi')['cls'] }}"><span class="fa fa-info"></span> &nbsp;{{ Session::get('notifikasi')['text'] }}
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            </div> {{-- col --}}
+          </div> {{-- row --}}
+        @endif
+        @yield('content')
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
 
-        <footer class="footer">
-            <div class="container-fluid">
-                <nav class="pull-left">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Company
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                               Blog
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <p class="copyright pull-right">
-                    &copy; <script>document.write(new Date().getFullYear())</script> <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
-                </p>
-            </div>
-        </footer>
-
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 2.3.8
     </div>
+    <strong>Copyright &copy; {{ date('Y') }} <a href="//axquiredstudio.com">AxQuired Studio</a>.</strong> All rights
+    reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  @include('layouts.rightsidebar')
+
 </div>
+<!-- ./wrapper -->
 
+@stack('modalcode')
 
+<!-- jQuery 2.2.3 -->
+<script src="{{ url('lte/plugins/jQuery/jquery-2.2.3.min.js') }}"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="{{ url('lte/bootstrap/js/bootstrap.min.js') }}"></script>
+{{-- Datatables --}}
+<script src="{{ url('lte/plugins/datatables/jquery.dataTables.js') }}"></script>
+<script src="{{ url('lte/plugins/datatables/dataTables.bootstrap.min.js') }}"></script>
+{{-- Datepicker --}}
+<script src="{{ url('lte/plugins/datepicker/bootstrap-datepicker.js') }}"></script>
+<script src="{{ url('lte/plugins/datepicker/locales/bootstrap-datepicker.id.js') }}"></script>
+<!-- FastClick -->
+<script src="{{ url('lte/plugins/fastclick/fastclick.js') }}"></script>
+<!-- AdminLTE App -->
+<script src="{{ url('lte/dist/js/app.min.js') }}"></script>
+<!-- Sparkline -->
+<script src="{{ url('lte/plugins/sparkline/jquery.sparkline.min.js') }}"></script>
+<!-- jvectormap -->
+{{-- <script src="{{ url('lte/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js') }}"></script> --}}
+{{-- <script src="{{ url('lte/plugins/jvectormap/jquery-jvectormap-world-mill-en.js') }}"></script> --}}
+<!-- SlimScroll 1.3.0 -->
+<script src="{{ url('lte/plugins/slimScroll/jquery.slimscroll.min.js') }}"></script>
+{{-- CKeditor --}}
+<script src="{{ URL::asset('assets/ckeditor/ckeditor.js') }}" type="text/javascript"></script>
+<script src="{{ URL::asset('assets/ckeditor/config.js') }}" type="text/javascript"></script>
+<!-- ChartJS 1.0.1 -->
+{{-- <script src="{{ url('lte/plugins/chartjs/Chart.min.js') }}"></script> --}}
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+{{-- <script src="{{ url('lte/dist/js/pages/dashboard2.js') }}"></script> --}}
+<!-- AdminLTE for demo purposes -->
+{{-- <script src="{{ url('lte/dist/js/demo.js') }}"></script> --}}
+@stack('jscode')
 </body>
-
-    <!--   Core JS Files   -->
-    <script src="{{ URL::asset('assets/js/jquery-1.10.2.js') }}" type="text/javascript"></script>
-	<script src="{{ URL::asset('assets/js/bootstrap.min.js') }}" type="text/javascript"></script>
-    <script src="{{ URL::asset('assets/datatable/jquery.dataTables.min.js') }}" type="text/javascript"></script>
-    
-    {{-- CKeditor --}}
-    <script src="{{ URL::asset('assets/ckeditor/ckeditor.js') }}" type="text/javascript"></script>
-    <script src="{{ URL::asset('assets/ckeditor/config.js') }}" type="text/javascript"></script>
-
-	<!--  Checkbox, Radio & Switch Plugins -->
-	<script src="{{ URL::asset('assets/js/bootstrap-checkbox-radio-switch.js') }}"></script>
-
-	<!--  Charts Plugin -->
-	{{-- <script src="{{ URL::asset('assets/js/chartist.min.js') }}"></script> --}}
-
-    <!--  Notifications Plugin    -->
-    <script src="{{ URL::asset('assets/js/bootstrap-notify.js') }}"></script>
-
-    <!--  Google Maps Plugin    -->
-    {{--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>--}}
-
-    <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
-	<script src="{{ URL::asset('assets/js/light-bootstrap-dashboard.js') }}"></script>
-
-	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
-	{{--<script src="{{ URL::asset('assets/js/demo.js') }}"></script>--}}
-
-	<script type="text/javascript">
-    	$(document).ready(function(){
-
-        	// demo.initChartist();
-
-        	// $.notify({
-         //    	icon: 'pe-7s-user',
-         //    	message: "Selamat Datang di <b>TOGA</b> - Toko Keluarga ."
-
-         //    },{
-         //        type: 'info',
-         //        timer: 4000
-         //    });
-
-            $('[data-toggle="tooltip"]').tooltip();
-
-    	});
-	</script>
-
-    @stack('jscode')
 </html>

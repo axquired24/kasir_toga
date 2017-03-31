@@ -1,7 +1,11 @@
 ### Development Note
-
+	- Warning saat addCart() apabila produk akan habis
 #### Database Note
-	- kurang preference u/ setting persentase toko
+	- 
 
 ### Minus Feature
-	- Barcode Belum @products table : unique()
+	- Add To Cart : huruf masih bisa besar kecil (harusnya kode = huruf besar saja)
+
+
+### Security
+	- VerifyCsrfToken Middleware : with except route: app/*
