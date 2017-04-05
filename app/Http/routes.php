@@ -37,6 +37,10 @@ Route::get('app/member/tabungan/x', 'UserController@tabunganData');
 // Store Option
 Route::match(['get', 'post'], 'app/settings','CashierController@setOption');
 
+// Laporan
+Route::match(['get', 'post'], 'app/laporan/{list}','LaporanController@listView');
+Route::get('app/laporan/invoice/x', 'LaporanController@invoiceData');
+
 // Auth Disable register just use this.
 // Route::auth();
 Route::post('login', 'Auth\AuthController@login');

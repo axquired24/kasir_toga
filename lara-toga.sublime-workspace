@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"stri",
+				"stripslashes"
+			],
+			[
+				"data",
+				"datatable"
+			],
+			[
 				"accoun",
 				"account_trn"
 			],
@@ -276,10 +284,6 @@
 				"margin"
 			],
 			[
-				"data",
-				"data_peserta"
-			],
-			[
 				"jml",
 				"jml_pool_ini"
 			],
@@ -510,36 +514,88 @@
 			[
 				"tan",
 				"tanggal_daftar"
-			],
-			[
-				"nama",
-				"nama_kk"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "app/Http/routes.php",
-			"settings":
-			{
-				"buffer_size": 1852,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/UserController.php",
-			"settings":
-			{
-				"buffer_size": 11640,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "resources/views/member/list.blade.php",
 			"settings":
 			{
-				"buffer_size": 2202,
+				"buffer_size": 2422,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/product/list.blade.php",
+			"settings":
+			{
+				"buffer_size": 3540,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/member/tabungan.blade.php",
+			"settings":
+			{
+				"buffer_size": 2840,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 2084,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/sidebar.blade.php",
+			"settings":
+			{
+				"buffer_size": 5286,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/LaporanController.php",
+			"settings":
+			{
+				"buffer_size": 3500,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/member/add.blade.php",
+			"settings":
+			{
+				"buffer_size": 4149,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/laporan/transaksi-pilihrange.blade.php",
+			"settings":
+			{
+				"buffer_size": 1939,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Models/Transaction.php",
+			"settings":
+			{
+				"buffer_size": 279,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/laporan/invoice.blade.php",
+			"settings":
+			{
+				"buffer_size": 1891,
 				"line_ending": "Windows"
 			}
 		},
@@ -552,26 +608,18 @@
 			}
 		},
 		{
+			"file": "app/Http/Controllers/UserController.php",
+			"settings":
+			{
+				"buffer_size": 15664,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "resources/views/member/edit.blade.php",
 			"settings":
 			{
-				"buffer_size": 4601,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/member/detail.blade.php",
-			"settings":
-			{
-				"buffer_size": 3120,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/product/list.blade.php",
-			"settings":
-			{
-				"buffer_size": 3325,
+				"buffer_size": 4629,
 				"line_ending": "Windows"
 			}
 		},
@@ -584,30 +632,6 @@
 			}
 		},
 		{
-			"file": "resources/views/layouts/sidebar.blade.php",
-			"settings":
-			{
-				"buffer_size": 4654,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/aplikasi/kasir_inc.blade.php",
-			"settings":
-			{
-				"buffer_size": 9849,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resources/views/aplikasi/kasir.blade.php",
-			"settings":
-			{
-				"buffer_size": 5046,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "vendor/gloudemans/shoppingcart/README.md",
 			"settings":
 			{
@@ -616,26 +640,10 @@
 			}
 		},
 		{
-			"file": "resources/views/layouts/apphome.blade.php",
-			"settings":
-			{
-				"buffer_size": 5970,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/viewsold/layouts/apphome.blade.php",
-			"settings":
-			{
-				"buffer_size": 8775,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "note.md",
 			"settings":
 			{
-				"buffer_size": 370,
+				"buffer_size": 268,
 				"line_ending": "Unix"
 			}
 		}
@@ -745,43 +753,50 @@
 		"/F/#my_web/htdocs/lara-toga/app",
 		"/F/#my_web/htdocs/lara-toga/app/Http",
 		"/F/#my_web/htdocs/lara-toga/app/Http/Controllers",
-		"/F/#my_web/htdocs/lara-toga/public",
+		"/F/#my_web/htdocs/lara-toga/database",
 		"/F/#my_web/htdocs/lara-toga/resources",
 		"/F/#my_web/htdocs/lara-toga/resources/views",
-		"/F/#my_web/htdocs/lara-toga/resources/views/member",
-		"/F/#my_web/htdocs/lara-toga/resources/viewsold/layouts"
+		"/F/#my_web/htdocs/lara-toga/resources/views/member"
 	],
 	"file_history":
 	[
+		"/F/#my_web/htdocs/lara-toga/app/Http/Controllers/CashierController.php",
+		"/F/#my_web/htdocs/lara-toga/app/Models/AccountTransaction.php",
+		"/F/#my_web/htdocs/lara-toga/app/Models/Product.php",
+		"/F/#my_web/htdocs/lara-toga/resources/views/layouts/header.blade.php",
+		"/F/#my_web/htdocs/lara-toga/resources/views/layouts/apphome.blade.php",
+		"/F/#my_web/htdocs/lara-toga/resources/views/aplikasi/kasir.blade.php",
+		"/F/#my_web/htdocs/lara-toga/resources/views/aplikasi/kasir_inc.blade.php",
+		"/F/#my_web/htdocs/lara-toga/resources/views/aplikasi/checkout.blade.php",
+		"/F/#my_web/htdocs/lara-toga/resources/views/member/detail.blade.php",
+		"/F/#my_web/htdocs/lara-toga/resources/views/member/edit.blade.php",
+		"/F/#my_web/htdocs/lara-toga/resources/views/product/category/list.blade.php",
+		"/F/#my_web/htdocs/lara-toga/resources/views/product/list.blade.php",
+		"/F/#my_web/htdocs/lara-toga/resources/views/layouts/sidebar.blade.php",
+		"/F/#my_web/htdocs/lara-toga/app/Http/Controllers/ProductController.php",
+		"/F/#my_web/htdocs/lara-toga/resources/viewsold/layouts/apphome.blade.php",
+		"/F/#my_web/htdocs/lara-toga/database/migrations/2017_02_14_002941_c_table_options.php",
 		"/F/#my_web/htdocs/lara-toga/resources/views/member/add.blade.php",
 		"/F/#my_web/htdocs/lara-toga/public/memberfiles/thumb-3bc2aed064.png",
 		"/F/#my_web/htdocs/lara-toga/public/memberfiles/33187456aa.png",
 		"/F/#my_web/htdocs/lara-toga/public/memberfiles/thumb-33187456aa.png",
-		"/F/#my_web/htdocs/lara-toga/app/Http/Controllers/CashierController.php",
-		"/F/#my_web/htdocs/lara-toga/app/Http/Controllers/ProductController.php",
 		"/F/#my_web/htdocs/lara-toga/app/Http/Controllers/HomeController.php",
 		"/F/#my_web/htdocs/lara-toga/app/Models/ProductCategory.php",
 		"/C/Users/AxQuired/Downloads/u0014183_gudang.sql",
 		"/F/#my_web/htdocs/lara-toga/resources/views/aplikasi/option.blade.php",
 		"/F/#my_web/htdocs/lara-toga/resources/views/member/list.blade.php",
-		"/F/#my_web/htdocs/lara-toga/resources/views/layouts/apphome.blade.php",
 		"/F/#my_web/htdocs/lara-toga/resources/views/product/edit.blade.php",
 		"/F/#my_web/htdocs/lara-toga/resources/viewsold/product/add.blade.php",
 		"/F/#my_web/htdocs/lara-toga/resources/viewsold/product/edit.blade.php",
 		"/F/#my_web/htdocs/lara-toga/resources/views/product/add.blade.php",
-		"/F/#my_web/htdocs/lara-toga/resources/views/layouts/sidebar.blade.php",
 		"/F/#my_web/htdocs/lara-toga/database/migrations/2017_03_29_042812_create_account_transactions_table.php",
-		"/F/#my_web/htdocs/lara-toga/app/Models/AccountTransaction.php",
 		"/F/#my_web/htdocs/lara-toga/app/Models/Invoice.php",
-		"/F/#my_web/htdocs/lara-toga/resources/views/layouts/header.blade.php",
-		"/F/#my_web/htdocs/lara-toga/resources/viewsold/layouts/apphome.blade.php",
 		"/F/#my_web/htdocs/lara-toga/resources/viewsold/layouts/sidebar.blade.php",
 		"/F/#my_web/htdocs/lara-toga/database/migrations/2017_02_09_002859_c_tabel_tagihan.php",
 		"/F/#my_web/htdocs/lara-toga/public/lte/bootstrap/css/bootstrap.min.css",
 		"/F/#my_web/htdocs/lara-toga/resources/viewsold/aplikasi/kasir.blade.php",
 		"/F/#my_web/htdocs/lara-toga/resources/viewsold/member/add.blade.php",
 		"/F/#my_web/htdocs/lara-toga/resources/viewsold/member/list.blade.php",
-		"/F/#my_web/htdocs/lara-toga/resources/views/product/list.blade.php",
 		"/F/#my_web/htdocs/lara-toga/resources/viewsold/product/list.blade.php",
 		"/F/#my_web/htdocs/lara-toga/app/Http/Middleware/VerifyCsrfToken.php",
 		"/F/#my_web/htdocs/lara-toga/resources/views/pages/tables/data.html",
@@ -815,8 +830,6 @@
 		"/F/#my_web/htdocs/lara-toga/public/assets/css/light-bootstrap-dashboard,bak.css",
 		"/F/#my_web/htdocs/lara-toga/public/assets/css/bootstrap.min.css",
 		"/F/#my_web/htdocs/lara-toga/public/assets/datepicker-1.6/js/bootstrap-datepicker.js",
-		"/F/#my_web/htdocs/lara-toga/resources/views/aplikasi/checkout.blade.php",
-		"/F/#my_web/htdocs/lara-toga/resources/views/aplikasi/kasir.blade.php",
 		"/F/#my_web/htdocs/lara-toga/vendor/gloudemans/shoppingcart/README.md",
 		"/F/#my_web/htdocs/lara-simaset/.env",
 		"/F/#my_web/htdocs/lara-toga/.env",
@@ -825,12 +838,10 @@
 		"/F/#my_web/htdocs/lara-toga/config/app.php",
 		"/F/#my_web/htdocs/lara-toga/config/cart.php",
 		"/F/#my_web/htdocs/lara-toga/app/Http/Controllers/Auth/AuthController.php",
-		"/F/#my_web/htdocs/lara-toga/resources/views/product/category/list.blade.php",
 		"/F/#my_web/htdocs/lara-toga/app/Repo/Repo.php",
 		"/F/#my_web/htdocs/lara-toga/resources/views/errors/404.blade.php",
 		"/F/#my_web/htdocs/lara-toga/config/_options.php",
 		"/F/#my_web/htdocs/lara-toga/app/Models/Option.php",
-		"/F/#my_web/htdocs/lara-toga/database/migrations/2017_02_14_002941_c_table_options.php",
 		"/F/#my_web/htdocs/lara-toga/public/productfiles/thumb-iddf16a1fe7.jpg",
 		"/F/#my_web/htdocs/lara-toga/public/productfiles/thumb-i7ed6181.jpg",
 		"/F/#my_web/htdocs/lara-toga/public/productfiles/i7ed6181.jpg",
@@ -876,11 +887,7 @@
 		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/aum_list/edit.blade.php",
 		"/F/#my_web/htdocs/lara-pcm/resources/views/admin/aum_list/add.blade.php",
 		"/F/#my_web/htdocs/lara-pcm/app/Http/Controllers/AUM/AUMController.php",
-		"/F/#my_web/htdocs/lara-pcm/resources/views/aum/home.blade.php",
-		"/F/#my_web/htdocs/lara-pcm/resources/views/layouts/aum_home.blade.php",
-		"/F/#my_web/htdocs/lara-pcm/resources/views/aum/halaman.blade.php",
-		"/F/#my_web/htdocs/lara-pcm/resources/views/layouts/admin.blade.php",
-		"/F/#my_web/htdocs/lara-pcm/readme.md"
+		"/F/#my_web/htdocs/lara-pcm/resources/views/aum/home.blade.php"
 	],
 	"find":
 	{
@@ -1171,84 +1178,24 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Http/routes.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1852,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1490,
-								1490
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai-Soft-MD.tmTheme",
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 419.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/Http/Controllers/UserController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11640,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2710,
-								2710
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai-Soft-MD.tmTheme",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1751.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "resources/views/member/list.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2202,
+						"buffer_size": 2422,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								897,
-								897
+								0,
+								2422
 							]
 						],
 						"settings":
@@ -1258,14 +1205,282 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 207.0,
+						"translation.y": 1092.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/product/list.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2953,
+								2953
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1152.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/member/tabungan.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								889,
+								889
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 123.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2084,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1714,
+								1714
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai-Soft-MD.tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 659.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/layouts/sidebar.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4904,
+								4904
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Http/Controllers/LaporanController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								431,
+								431
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 384.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 6,
+					"file": "resources/views/member/add.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4026,
+								3773
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1979.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "resources/views/laporan/transaksi-pilihrange.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								589,
+								589
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/Models/Transaction.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "resources/views/laporan/invoice.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1891,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1854,
+								1854
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "app/Http/Controllers/ProductController.php",
 					"semi_transient": false,
 					"settings":
@@ -1277,8 +1492,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								3033,
+								4858
 							]
 						],
 						"settings":
@@ -1288,89 +1503,62 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2606.0,
+						"translation.y": 2857.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 11,
+					"file": "app/Http/Controllers/UserController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3823,
+								3823
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai-Soft-MD.tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2193.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
 					"file": "resources/views/member/edit.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4601,
+						"buffer_size": 4629,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3434,
-								3434
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1361.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "resources/views/member/detail.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3120,
-						"regions":
-						{
-						},
-						"selection":
-						[
+								957,
+								970
+							],
 							[
-								1623,
-								1623
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 557.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "resources/views/product/list.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3325,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1788,
-								1797
+								3089,
+								3110
 							]
 						],
 						"settings":
@@ -1380,14 +1568,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 399.0,
+						"translation.y": 231.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 13,
 					"file": "resources/views/aplikasi/checkout.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1399,13 +1587,12 @@
 						"selection":
 						[
 							[
-								522,
-								522
+								4651,
+								4651
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
 							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -1414,104 +1601,11 @@
 						"translation.y": 2343.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "resources/views/layouts/sidebar.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4654,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2238,
-								2274
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1262.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "resources/views/aplikasi/kasir_inc.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9849,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6912,
-								9839
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4975.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "resources/views/aplikasi/kasir.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5046,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								5046
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai-Soft-MD.tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 672.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
+					"buffer": 14,
 					"file": "vendor/gloudemans/shoppingcart/README.md",
 					"semi_transient": false,
 					"settings":
@@ -1537,84 +1631,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "resources/views/layouts/apphome.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5970,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3434,
-								3434
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1668.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "resources/viewsold/layouts/apphome.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8775,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2329.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "note.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 370,
+						"buffer_size": 268,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								173,
-								173
+								72,
+								72
 							]
 						],
 						"settings":
@@ -1625,7 +1659,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 14,
 					"type": "text"
 				}
 			]
@@ -1691,7 +1725,7 @@
 		[
 			[
 				"",
-				"F:\\#my_web\\htdocs\\_sublime_project\\jurnaldosen.sublime-project"
+				"F:\\#my_web\\htdocs\\sh_pdam\\pdam.sublime-project"
 			]
 		],
 		"width": 380.0

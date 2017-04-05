@@ -51,6 +51,13 @@
           } // close if
         } // close function
 
+        function active_laporan($param) {
+          $cur_uri  = cur_uri();
+          if($cur_uri[1] == 'laporan' && $cur_uri[2] == $param) {
+            return 'class=active';
+          } // close if
+        } // close function
+
         $cur_uri  = cur_uri(); // export variable
         // dd($cur_uri);
       ?>
@@ -87,7 +94,7 @@
             <li {{ active_member('add') }}><a href="{{ url('app/member/add') }}"><i class="fa fa-circle-o"></i> Tambah Member</a></li>
           </ul>
         </li>
-        <li class="treeview">
+        <li class="treeview @if($cur_uri[1] == 'laporan') active @endif">
           <a href="#">
             <i class="fa fa-file-pdf-o"></i>
             <span>Laporan</span>
@@ -97,7 +104,8 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="#"><i class="fa fa-circle-o"></i> Statistik</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Laporan Penjualan</a></li>
+            <li {{ active_product('invoice') }}><a href="{{ url('app/laporan/invoice') }}"><i class="fa fa-circle-o"></i> Laporan Transaksi</a></li>
+            <li {{ active_product('transaksi') }}><a href="{{ url('app/laporan/transaksi?paramdua=pilihrange') }}"><i class="fa fa-circle-o"></i> Laporan Penjualan</a></li>
           </ul>
         </li>
         <li class="header">PENGATURAN</li>
