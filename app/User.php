@@ -12,7 +12,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'kode', 'name', 'email', 'password', 'level', 'saldo', 'mothers_name', 'address', 'born', 'profile_image'
+        'kode', 'name', 'email', 'password', 'level', 'saldo', 'mothers_name', 'address', 'born', 'profile_image',
     ];
 
     /**
@@ -30,13 +30,15 @@ class User extends Authenticatable
         return $this->hasMany(Models\Invoice::class);
     }
 
-    public static function getEnum($column){
+    public static function getEnum($column)
+    {
         $type = DB::select(DB::raw('SHOW COLUMNS FROM users WHERE Field = "'.$column.'"'))[0]->Type;
         preg_match('/^enum\((.*)\)$/', $type, $matches);
-        $values = array();
-        foreach(explode(',', $matches[1]) as $value){
+        $values = [];
+        foreach (explode(',', $matches[1]) as $value) {
             $values[] = trim($value, "'");
         }
+
         return $values;
     }
 }
