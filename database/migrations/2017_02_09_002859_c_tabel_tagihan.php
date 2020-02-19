@@ -18,6 +18,8 @@ class CTabelTagihan extends Migration
             $table->integer('user_id')->unsigned();
             $table->string('invoice_code');
             $table->integer('transaction_total');
+            $table->integer('profit_toko');
+            $table->integer('profit_member');
             $table->timestamps();
         });
     }

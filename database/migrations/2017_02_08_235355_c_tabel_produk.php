@@ -15,6 +15,7 @@ class CTabelProduk extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('product_category_id')->unsigned();
+            $table->string('kode')->unique();
             $table->string('name');
             $table->string('slug_name')->unique();
             $table->text('description');

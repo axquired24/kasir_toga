@@ -315,6 +315,7 @@ class ProductController extends Controller
 
         $product->kode              = $request['kode'];
         $product->name              = $request['name'];
+        $product->slug_name         = str_slug($request['name']);
         $product->description       = $request['description'];
         $product->product_category_id   = $request['product_category_id'];
         $product->buying_price      = $request['buying_price'];
